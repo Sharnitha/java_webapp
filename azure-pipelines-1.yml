@@ -5,7 +5,7 @@ trigger:
       - master
  
 pool:
-  vmImage: 'Default'
+  iamge: 'Default'
   variables:
   ImageName: 'sharnithadockerhub/dfthub:$(Build.BuildId)'  
 stages:
